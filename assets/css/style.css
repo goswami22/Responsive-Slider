@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;700&display=swap');
+
+/* 
+font-family: 'Bitter', serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s all;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.slider-wrapper {
+    background-size: cover !important;
+    background-position: top center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.item {
+    position: relative;
+}
+
+img.main-img {
+    position: absolute;
+    object-fit: cover;
+    object-position: top center;
+    height: 100vh;
+}
+
+.overlay1 {
+    background: linear-gradient(to right, rgba(1, 85, 209, 1) 0%, rgba(67, 25, 175, 0.7) 0%);
+}
+
+.overlay2 {
+    background: linear-gradient(to right, rgba(210, 113, 12, 1) 0%, rgba(219, 79, 39, 0.7) 40%);
+}
+
+.overlay3 {
+    background: linear-gradient(to right, rgba(18, 139, 76, 1) 0%, rgba(26, 169, 122, 0.7) 0%);
+}
+
+.overlay4 {
+    background: linear-gradient(to right, rgba(17, 115, 153, 1) 0%, rgba(47, 100, 184, 0.7) 0%);
+}
+
+.slider-wrapper p.last-para {
+    line-height: 42px;
+}
+
+.slider-detail {
+    font-family: Montserrat, Arial;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slider-content h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 66px;
+}
+
+p.lead {
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #000000;
+    font-family: Bitter, Arial !important;
+    max-width: 600px;
+}
+
+.slider-btn {
+    padding: 16px 35px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+    margin: 10px 0 36px;
+}
+
+.fill-btn,
+.outline-btn:hover {
+    background: #fff;
+    color: #3C6BD3;
+    margin-right: 40px;
+}
+
+.fill-btn:hover,
+.outline-btn {
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.social-icon a i {
+    color: #fff;
+    font-size: 25px;
+    opacity: 0.5;
+}
+
+.social-icon a i:hover {
+    opacity: 1;
+}
+
+.music-icon {
+    width: 200px !important;
+}
+
+.slider-content h1.first {
+    margin-top: 25px;
+}
+
+.owl-carousel {
+    position: relative;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FFF !important;
+    font-size: 50px !important;
+}
+
+.owl-nav .owl-prev {
+    left: 0;
+}
+
+.owl-nav .owl-next {
+    right: 0;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px 7px;
+    background: transparent;
+    border-radius: 50px;
+    color: rgb(204, 204, 204);
+    transition: 0.3s all;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+}
+
+.form {
+    width: 510px;
+}
+
+.form .form-top {
+    padding: 15px 40px 20px;
+    background: #fff;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    color: #949eaa
+}
+
+.form-control,
+#msg,
+.form-footer {
+    background: #F2F5FA;
+}
+
+.form-footer {
+    padding: 20px 40px;
+}
+
+.btn-primary {
+    border-radius: 50px;
+}
+
+img.main-img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.main-img,
+.owl-video {
+    position: relative;
+}
+
+.main-img-project img {
+    max-width: 500px;
+}
+
+.mobile-img img {
+    max-width: 350px;
+}
+
+img.plane {
+    position: absolute;
+    bottom: -83px;
+    right: -5px;
+}
+
+.slider-details {
+    position: absolute;
+    top: 50%;
+    left: auto;
+    width: 100vw;
+    transform: translateY(-50%);
+}
+
+.col-md-6.col-lg-6 {
+    display: flex;
+    align-items: center !important;
+}
+
+video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+}
